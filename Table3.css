@@ -1,0 +1,42 @@
+thead{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(37, 100, 79);
+    color: white;
+}
+tbody{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(70, 3, 70);
+    color: rgb(177, 233, 227);
+}
+tbody tr td:nth-child(1) {
+    
+    color: rgb(255, 255, 255) !important;
+    background:rgb(37, 100, 79) ;
+}
+table, th,td {
+  font-size: 20px;
+  width:97%;
+  height:70%;
+  margin-top:3%;
+  margin-inline:2%;
+  border:1.5px solid rgb(0, 0, 0);
+  border-width: 2px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 8px;
+}
+
+.caption{
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: larger;
+    margin:10px;
+}
+
+.row-lunch{
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-weight: 600;
+}
